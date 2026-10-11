@@ -1,0 +1,34 @@
+{
+  "name": "Chamika Pathirage",
+  "title": "Full Stack Software & UX Engineer",
+  "email": "chamikasathsara1@gmail.com",
+  "phone": "+94 76 48 52 827",
+  "location": "Bandaragama, Sri Lanka",
+  "bio": "Results-driven Full Stack Software and UI/UX Engineer with a BSc. Hons in Computing and Information Systems (Second Class Upper Division). Highly skilled in architecting modern web applications, mobile front-ends, and serverless ecosystems. Blends technical software development expertise with professional experience in business development, compliance operations, and creative UI/UX design to deliver robust, user-centric digital products.",
+  "shortBio": "I build modern web and mobile experiences that combine clean engineering, thoughtful UX, and scalable architecture.",
+  "avatarUrl": "/images/profile/chamika.webp",
+  "socials": {
+    "github": "https://github.com/ChamikaSathsara",
+    "medium": "https://medium.com/@chamikasathsara1",
+    "behance": "https://www.behance.net/chamikasathsara1",
+    "linkedin": "https://www.linkedin.com/in/chamika-sathsara/"
+  },
+  "stats": [
+    {
+      "label": "Graduated",
+      "value": "2025"
+    },
+    {
+      "label": "Final GPA",
+      "value": "3.36"
+    },
+    {
+      "label": "Speciality",
+      "value": "Full Stack"
+    },
+    {
+      "label": "Focus",
+      "value": "Web + Mobile"
+    }
+  ]
+}

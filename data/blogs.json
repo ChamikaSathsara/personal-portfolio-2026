@@ -1,0 +1,46 @@
+[
+  {
+    "id": "nextjs-caching-architecture-guide",
+    "slug": "nextjs-caching-architecture-guide",
+    "title": "The Definitive Guide to Next.js Caching Architecture: Internals, Patterns, and Evolution",
+    "excerpt": "A deep dive into Next.js App Router caching internals, semantic invalidation, cacheLife primitives, and high-performance server components for enterprise scale.",
+    "content": "# The Definitive Guide to Next.js Caching Architecture\n\n*Originally published on Medium by Chamika Pathirage (@chamikasathsara1)*\n\nModern web applications demand lightning-fast response times combined with dynamic personalized data. In this guide, we break down the four caching layers of Next.js, how cache invalidation has evolved, and production architectural patterns.\n\n## The Four Caching Layers\n\n1. **Request Memoization** — Deduplicates identical `fetch` requests within a single React render tree cycle.\n2. **Data Cache** — Persists HTTP fetch responses across incoming requests and user sessions.\n3. **Full Route Cache** — Automatically stores static HTML and React Server Component (RSC) payloads at build time or during revalidation.\n4. **Router Cache (Client-Side)** — In-memory browser cache storing visited routes and prefetched segments.\n\n```tsx\n// Revalidating cached data with tags\nimport { revalidateTag } from 'next/cache';\n\nexport async function updateArticle(id: string) {\n  'use server';\n  await db.articles.update(id);\n  revalidateTag('articles');\n}\n```\n\n## Evolving Semantic Invalidation: cacheLife and cacheTag\n\nRecent iterations of Next.js introduce declarative time profiles via `cacheLife`. Instead of hardcoding magic numbers for revalidation windows, teams define semantic caching tiers such as `seconds`, `minutes`, `hours`, and `days`.\n\n## Production Architectural Takeaways\n\n- Prefer granular data-level caching tags over whole-page purge cycles.\n- Separate static shell layout components from dynamic user data segments.\n- Monitor cache hit ratios in production to prevent unexpected cold start overhead.",
+    "coverImage": "/images/blog/nextjs-caching.webp",
+    "tags": ["Next.js", "Web Architecture", "Performance", "Caching"],
+    "publishedAt": "2025-12-15",
+    "featured": true
+  },
+  {
+    "id": "haptics-vibration-define-modern-ux",
+    "slug": "haptics-vibration-define-modern-ux",
+    "title": "The Pulse of Interaction: Why Haptics and Vibration Define Modern UX",
+    "excerpt": "Exploring the tactile dimension of digital products: how haptic technology, micro-vibrations, and physical affordances elevate accessibility and user delight.",
+    "content": "# The Pulse of Interaction: Why Haptics and Vibration Define Modern UX\n\n*Originally published on Medium by Chamika Pathirage (@chamikasathsara1)*\n\nFor decades, digital user interfaces lived purely in visual and auditory dimensions. However, modern touch devices and wearable ecosystems have made tactile sensations — haptic feedback — a primary communication channel for UX engineers.\n\n## The Power of Physical Affordances\n\nWhen a user pulls to refresh or toggles an important switch, instantaneous micro-vibrations validate the physical boundary of the digital action. This creates what cognitive psychologists describe as tactile confirmation, reducing cognitive uncertainty and eliminating unnecessary double-taps.\n\n## Designing for Accessibility\n\nHaptics are indispensable for accessibility:\n\n- **Dual Sensory Impairment** — Provides crucial non-visual feedback for users with combined visual and auditory limitations.\n- **High-Distraction Environments** — In noisy or outdoor environments, tactile cues ensure critical notifications and confirmations are never missed.\n\n## Haptic Design Guidelines for Developers\n\n1. **Never Overuse Feedback** — Reserve haptics for decisive actions (success confirmations, destructive alerts, slider detents).\n2. **Match Physical Dynamics** — Light tick pulses for transient items, firm sharp buzzes for errors or boundary limits.\n3. **Respect User Preferences** — Always honor device-level accessibility toggles and respect reduced motion/tactile settings.",
+    "coverImage": "/images/blog/haptics-ux.webp",
+    "tags": ["UX Design", "Haptics", "Mobile UX", "Accessibility"],
+    "publishedAt": "2026-02-10",
+    "featured": true
+  },
+  {
+    "id": "introducing-layered-architecture-web-applications",
+    "slug": "introducing-layered-architecture-web-applications",
+    "title": "Introducing Layered Architecture for Web Applications",
+    "excerpt": "How structuring web systems into Presentation, Application, Data Access, and Database layers drastically improves maintainability, reusability, and enterprise scale.",
+    "content": "# Introducing Layered Architecture for Web Applications\n\n*Originally published on Medium by Chamika Pathirage (@chamikasathsara1)*\n\nAs web applications grow in size and complexity, codebases without deliberate architecture quickly deteriorate into 'spaghetti code.' Layered Architecture is a foundational architectural pattern that divides software systems into distinct, self-contained logical layers.\n\n## The Core Layers\n\n1. **Presentation Layer (UI Layer)** — Responsible for capturing user interactions and presenting visual states. Should contain zero database access or business logic.\n2. **Application Layer (Service Layer)** — The central brain that orchestrates workflows, validates business rules, and transforms data between layers.\n3. **Data Access Layer (Repository Layer)** — Abstract layer handling all queries, mutations, and database connectors. Shields domain logic from specific ORMs or database drivers.\n4. **Database Layer** — The physical persistence storage (PostgreSQL, MongoDB, DynamoDB).\n\n```\n[ Presentation Layer (UI / Next.js Pages) ]\n                     ↓\n[ Application Layer (Services & Business Logic) ]\n                     ↓\n[ Data Access Layer (Repositories & ORM) ]\n                     ↓\n[ Database (PostgreSQL / MongoDB / DynamoDB) ]\n```\n\n## Key Architectural Benefits\n\n- **Separation of Concerns:** Each layer has a well-defined boundary.\n- **Independent Scalability:** Workload bottlenecks can be isolated and scaled horizontally.\n- **Testability:** Business logic can be unit-tested without mocking live database connections.\n- **Maintainability:** Modifying database schemas or external APIs only affects the repository layer.",
+    "coverImage": "/images/blog/layered-architecture.webp",
+    "tags": ["Software Architecture", "System Design", "Clean Architecture", "Engineering"],
+    "publishedAt": "2025-03-20",
+    "featured": true
+  },
+  {
+    "id": "ux-engineers-imperative-crafting-answers-ai",
+    "slug": "ux-engineers-imperative-crafting-answers-ai",
+    "title": "The UX Engineer's Imperative: Crafting 'Beautiful' Answers for the AI Era",
+    "excerpt": "Why raw model intelligence is insufficient without human-centered interfaces. How UX engineers shape trust, clarity, and delightful experiences in modern AI software.",
+    "content": "# The UX Engineer's Imperative: Crafting 'Beautiful' Answers for the AI Era\n\n*Originally published on Medium by Chamika Pathirage (@chamikasathsara1)*\n\nThe explosion of generative models and large language models has fundamentally transformed software interaction. However, intelligence alone does not equal a great product.\n\n## Beyond the Plain Chatbox\n\nThe plain text box is a primitive modality. Modern generative interfaces require rich micro-interactions, streaming state indicators, citation pills, collapsible artifact drawers, and bidirectional canvas editors.\n\n## Designing for Trust and Latency\n\n1. **Progressive Rendering** — Avoid jarring layout shifts by streaming tokens with smooth font transitions and stable height reservations.\n2. **Explainability & Sourcing** — Enable interactive citations that allow users to inspect the underlying source data in one tap.\n3. **Graceful Failure States** — Offer context-aware repair suggestions when an AI output fails validation.",
+    "coverImage": "/images/blog/ai-ux.webp",
+    "tags": ["AI & UX", "Product Design", "Frontend", "Human-Centered AI"],
+    "publishedAt": "2026-03-12",
+    "featured": false
+  }
+]

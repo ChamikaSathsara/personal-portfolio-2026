@@ -1,0 +1,35 @@
+[
+  {
+    "id": "qriomatrix-engineer",
+    "company": "QrioMatrix Technologies (Pvt) Ltd",
+    "role": "Software Frontend & Mobile Engineer",
+    "duration": "June 2025 — Present",
+    "startDate": "2025-06",
+    "endDate": "",
+    "description": "Architecting and deploying responsive web and mobile front-end applications utilizing modern component libraries, TypeScript, and clean code principles. Collaborating closely with cross-functional design and engineering teams to translate wireframes into high-performance, polished user interfaces. Optimizing application state management and component structures for seamless cross-platform user experience flows.",
+    "type": "full-time",
+    "current": true
+  },
+  {
+    "id": "qriomatrix-trainee",
+    "company": "QrioMatrix Technologies (Pvt) Ltd",
+    "role": "Trainee Software Engineer",
+    "duration": "1 Year 6 Months",
+    "startDate": "2023-12",
+    "endDate": "2025-05",
+    "description": "Contributed to the complete software development lifecycle, implementing feature updates, conducting thorough code maintenance, and executing bug fixes. Supported backend integration workflows and participated in agile team planning sessions to ensure timely software delivery.",
+    "type": "trainee",
+    "current": false
+  },
+  {
+    "id": "ntb-frimi",
+    "company": "NTB Bank — FriMi Digital Banking",
+    "role": "Digital Banking Operations",
+    "duration": "6 Months",
+    "startDate": "2023-06",
+    "endDate": "2023-11",
+    "description": "Executed rigorous KYC (Know Your Customer) verification protocols, ensuring compliance with banking regulatory standards and security policies. Drove user acquisition and merchant onboarding strategies for FriMi digital wallet promotions, contributing directly to regional growth targets.",
+    "type": "internship",
+    "current": false
+  }
+]

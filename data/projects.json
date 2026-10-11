@@ -1,0 +1,89 @@
+[
+  {
+    "id": "hiretrace-io",
+    "title": "Smart ATS Platform",
+    "description": "A comprehensive applicant tracking and candidate pipeline platform. Built with full-stack MERN & TypeScript architectures, featuring automated candidate stage progression, resume parsing, interview evaluation workflows, and real-time dashboard analytics.",
+    "image": "/images/projects/hiretrace.webp",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS"
+    ],
+    "category": "Full Stack",
+    "github": "https://github.com/ChamikaSathsara",
+    "liveUrl": "https://github.com/ChamikaSathsara",
+    "featured": true
+  },
+  {
+    "id": "layered-architecture-web",
+    "title": "Enterprise Layered Architecture System",
+    "description": "Production reference system implementing clean 4-tier layered architecture (Presentation Layer, Application Service Layer, Repository Layer, and Database Layer). Designed for high maintainability, testability, and enterprise scalability.",
+    "image": "/images/projects/layered-architecture.webp",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "REST APIs",
+      "GraphQL",
+      "SOLID Principles"
+    ],
+    "category": "Full Stack",
+    "github": "https://github.com/ChamikaSathsara",
+    "liveUrl": "https://medium.com/@chamikasathsara1",
+    "featured": true
+  },
+  {
+    "id": "knoit-keyboard",
+    "title": "KnoitKeyboard — Smart Android Mobile Keyboard",
+    "description": "An intelligent mobile keyboard application developed with Android Studio and Java. Features custom themes, responsive tactile feedback, localized input methods, gesture typing, and optimized Android input service lifecycle management.",
+    "image": "/images/projects/knoit-keyboard.webp",
+    "technologies": [
+      "Android Studio",
+      "Java",
+      "Mobile UX",
+      "Haptics",
+      "SDK Architecture"
+    ],
+    "category": "Mobile",
+    "github": "https://github.com/ChamikaSathsara/KnoitKeyboard",
+    "liveUrl": "https://github.com/ChamikaSathsara/KnoitKeyboard",
+    "featured": true
+  },
+  {
+    "id": "behance-design-systems",
+    "title": "Creative UI/UX & Digital Brand Showcase",
+    "description": "Curated collection of digital product designs, glassmorphic design systems, mobile app prototypes, and brand identities published on Behance. Bridges creative visual aesthetics with technical front-end implementation.",
+    "image": "/images/projects/behance-showcase.webp",
+    "technologies": [
+      "Figma",
+      "UI/UX Design",
+      "Behance",
+      "Design Systems",
+      "Prototyping"
+    ],
+    "category": "UI/UX",
+    "github": "https://github.com/ChamikaSathsara",
+    "liveUrl": "https://www.behance.net/chamikasathsara1",
+    "featured": true
+  },
+  {
+    "id": "learning-algorithms",
+    "title": "Algorithms & Data Structures Repository",
+    "description": "Comprehensive implementation of fundamental computer science algorithms and memory-efficient data structures in C and C++, covering binary search trees, graph algorithms, sorting techniques, and algorithmic complexity benchmarks.",
+    "image": "/images/projects/learning-algorithms.webp",
+    "technologies": [
+      "C",
+      "C++",
+      "Data Structures",
+      "Algorithms",
+      "Performance Optimization"
+    ],
+    "category": "Web",
+    "github": "https://github.com/ChamikaSathsara/learning-algorithms",
+    "liveUrl": "https://github.com/ChamikaSathsara/learning-algorithms",
+    "featured": false
+  }
+]

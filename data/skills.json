@@ -1,0 +1,26 @@
+[
+  {
+    "id": "frontend-mobile",
+    "category": "Frontend & Mobile",
+    "icon": "Monitor",
+    "skills": ["JavaScript ES6+", "TypeScript", "Next.js", "React", "Mobile UI/UX", "Tailwind CSS", "shadcn/ui"]
+  },
+  {
+    "id": "backend-cloud",
+    "category": "Backend & Cloud",
+    "icon": "Cloud",
+    "skills": ["Node.js", "GraphQL", "REST APIs", "AWS Lambda", "DynamoDB", "Serverless Architecture"]
+  },
+  {
+    "id": "design",
+    "category": "Design",
+    "icon": "Palette",
+    "skills": ["Figma", "UI/UX Design", "Glassmorphism", "Minimalism", "Graphic Design", "Branding"]
+  },
+  {
+    "id": "business",
+    "category": "Business & Operations",
+    "icon": "Briefcase",
+    "skills": ["KYC Compliance", "Digital Wallet Promotions", "Client Communication", "Agile Project Coordination"]
+  }
+]
